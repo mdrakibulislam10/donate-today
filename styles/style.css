@@ -1,7 +1,10 @@
+/* google font */
 * {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
+/* header */
 .banner {
     background-image: url(../images/donation5.jpg), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
     background-repeat: no-repeat;
@@ -28,14 +31,171 @@
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
+    margin: 20px 0 30px;
 }
 
 .btn-style {
     background: #FF5959;
     border-radius: 5px;
-    padding: 16px 12px;
+    padding: 16px 20px;
     border: 0;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+/* section common styles */
+section {
+    margin: 131px 0 131px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    width: 691px;
+    margin: 20px auto 126px;
+}
+
+/* donate today style */
+.price {
+    /* width: 135px;
+    height: 123px; */
+    display: inline-block;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    padding: 43px 23px;
+    margin: 0 11px 60px 22px;
+    border: 2px solid #FAFAFA;
+}
+
+.price:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+.other-tk {
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-bottom: 9.5px;
+}
+
+.price-hr {
+    width: 765px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* Our Donate Plan styles */
+.donate-plan-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.plan-card {
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.plan-img {
+    margin: 63px 0 31px 27px;
+}
+
+.plan-title {
+    margin: 0 0 16px 23px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.plan-description {
+    margin: 0 22px 54px 23px;
+}
+
+/* depends on you and they need survive section styles */
+.side-section-container {
+    display: flex;
+    justify-content: center;
+    gap: 83px;
+}
+
+.side-details-section {
+    text-align: left;
+    width: 493px;
+    margin-right: 83px;
+}
+
+.side-img {
+    width: 456px;
+}
+
+/* Get My Updates section styles */
+.subscribe-form {
+    background: #FFF4D6;
+    padding: 76px 188px;
+    display: inline-block;
+    width: 809px;
+}
+
+.input-email {
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: -5px;
+    padding: 14px 0 14px 17px;
+    width: 275px;
+    border: 0;
+    color: #AA9F9F;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.input-sub {
+    width: 157px;
+    padding: 14px 42.5px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* footer styles */
+footer {
+    background: #0B0D17;
+    height: 177px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 43px;
+    padding-bottom: 24px;
+}
+
+.footer-description {
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 14px;
 }
